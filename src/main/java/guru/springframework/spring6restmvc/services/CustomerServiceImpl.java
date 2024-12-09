@@ -39,7 +39,7 @@ public class CustomerServiceImpl implements CustomerService {
                 .build();
 
         Customer c3 = Customer.builder()
-                .id(2)
+                .id(3)
                 .version(1)
                 .customerName("Sunshine City")
                 .createdDate(LocalDateTime.now())
